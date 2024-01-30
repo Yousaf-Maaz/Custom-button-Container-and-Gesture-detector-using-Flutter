@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Custom Button Assignment'),
+          backgroundColor: Colors.green,
         ),
         body: const Center(
           child: CustomButton(),
